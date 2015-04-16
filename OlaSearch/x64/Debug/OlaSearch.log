@@ -1,0 +1,14 @@
+﻿Build started 2015/4/16 14:30:19.
+     1>Project "D:\ZLX_WORK_pack\iitrip\OlaSearch\OlaSearch.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /Od /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt /Gs65536 web\reply.cpp
+         reply.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+     1>Done Building Project "D:\ZLX_WORK_pack\iitrip\OlaSearch\OlaSearch.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
