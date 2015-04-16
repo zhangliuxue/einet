@@ -1,0 +1,41 @@
+﻿Build started 2015/4/16 10:18:34.
+     1>Project "D:\ZLX_WORK_pack\iitrip\OlaSearch\OlaSearch.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\OlaSearch.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ZLX_WORK_pack\iitrip\iitrip\x64\Release\OlaSearch.exe" /NOLOGO libiconv.a libcharset.a "mongoc-static-1.0.lib" "bson-static-1.0.lib" ws2_32.lib ssleay32.lib libeay32.lib /MANIFEST:NO /PDB:"D:\ZLX_WORK_pack\iitrip\iitrip\x64\Release\OlaSearch.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ZLX_WORK_pack\iitrip\iitrip\x64\Release\OlaSearch.lib" /MACHINE:X64 x64\Release\OlaSearch.res
+         x64\Release\mongo_interface.obj
+         x64\Release\connection.obj
+         x64\Release\connection_manager.obj
+         x64\Release\main.obj
+         x64\Release\mime_types.obj
+         x64\Release\reply.obj
+         x64\Release\request_handler.obj
+         x64\Release\request_parser.obj
+         x64\Release\server.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libeay32.lib(cryptlib.obj) : error LNK2019: unresolved external symbol __imp_DeregisterEventSource referenced in function OPENSSL_showfatal
+     1>libeay32.lib(cryptlib.obj) : error LNK2019: unresolved external symbol __imp_RegisterEventSourceW referenced in function OPENSSL_showfatal
+     1>libeay32.lib(cryptlib.obj) : error LNK2019: unresolved external symbol __imp_ReportEventW referenced in function OPENSSL_showfatal
+     1>libeay32.lib(cryptlib.obj) : error LNK2019: unresolved external symbol __imp_GetProcessWindowStation referenced in function OPENSSL_isservice
+     1>libeay32.lib(cryptlib.obj) : error LNK2019: unresolved external symbol __imp_GetUserObjectInformationW referenced in function OPENSSL_isservice
+     1>libeay32.lib(cryptlib.obj) : error LNK2019: unresolved external symbol __imp_MessageBoxW referenced in function OPENSSL_showfatal
+     1>libeay32.lib(cryptlib.obj) : error LNK2019: unresolved external symbol __imp_GetDesktopWindow referenced in function OPENSSL_isservice
+     1>libeay32.lib(rand_win.obj) : error LNK2019: unresolved external symbol __imp_CreateCompatibleBitmap referenced in function readscreen
+     1>libeay32.lib(rand_win.obj) : error LNK2019: unresolved external symbol __imp_DeleteObject referenced in function readscreen
+     1>libeay32.lib(rand_win.obj) : error LNK2019: unresolved external symbol __imp_GetDeviceCaps referenced in function readscreen
+     1>libeay32.lib(rand_win.obj) : error LNK2019: unresolved external symbol __imp_GetDIBits referenced in function readscreen
+     1>libeay32.lib(rand_win.obj) : error LNK2019: unresolved external symbol __imp_GetObjectW referenced in function readscreen
+     1>libeay32.lib(rand_win.obj) : error LNK2019: unresolved external symbol __imp_GetDC referenced in function readscreen
+     1>libeay32.lib(rand_win.obj) : error LNK2019: unresolved external symbol __imp_ReleaseDC referenced in function readscreen
+     1>D:\ZLX_WORK_pack\iitrip\iitrip\x64\Release\OlaSearch.exe : fatal error LNK1120: 14 unresolved externals
+     1>Done Building Project "D:\ZLX_WORK_pack\iitrip\OlaSearch\OlaSearch.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20
