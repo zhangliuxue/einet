@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mongodb">
+      <UniqueIdentifier>{61b78197-977d-4079-b891-b50cadb85d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mmseg">
+      <UniqueIdentifier>{2cae3c18-4b41-4e14-b754-165ba69cf7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web">
+      <UniqueIdentifier>{ef5d34a9-5b70-4de9-a163-015d50a7e775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opt">
+      <UniqueIdentifier>{345e26e0-245a-44f2-a2f5-1a77f337738e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mongodb\mongo_interface.c">
+      <Filter>mongodb</Filter>
+    </ClCompile>
+    <ClCompile Include="utf8.cpp">
+      <Filter>opt</Filter>
+    </ClCompile>
+    <ClCompile Include="web\connection.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\connection_manager.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\CRegex.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\io_service_pool.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\main.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\md5.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\md5coll.c">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\mime_types.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\ParserProcess.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\reply.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\request_handler.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\request_parser.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\SeessionID.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="web\server.cpp">
+      <Filter>web</Filter>
+    </ClCompile>
+    <ClCompile Include="GzipProcess.cpp">
+      <Filter>opt</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonMsg.cpp">
+      <Filter>opt</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlprocess.cpp">
+      <Filter>opt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mmseg\mmseg.h">
+      <Filter>mmseg</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mongodb\mongo_interface.h">
+      <Filter>mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8.h">
+      <Filter>opt</Filter>
+    </ClInclude>
+    <ClInclude Include="web\connection.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\connection_manager.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\header.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\io_service_pool.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\md5.h">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\md5.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\mime_types.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\ParserProcess.h">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\reply.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\request.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\request_handler.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\request_parser.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\SeessionID.h">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="web\server.hpp">
+      <Filter>web</Filter>
+    </ClInclude>
+    <ClInclude Include="GzipProcess.h">
+      <Filter>opt</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonMsg.h">
+      <Filter>opt</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.hpp">
+      <Filter>opt</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlprocess.h">
+      <Filter>opt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OlaSearch.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
